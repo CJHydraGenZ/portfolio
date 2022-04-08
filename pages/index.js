@@ -2,9 +2,12 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "styles/Home.module.css";
 import Gambar from "components/assets/image/me.png";
+import { Navbar } from "components/header/Navbar";
 export default function Home() {
   return (
     <>
+      {/* Navbar */}
+      <Navbar />
       <section id="home" className="pt-36">
         <div className="container">
           <div className="flex flex-wrap">
@@ -44,7 +47,7 @@ export default function Home() {
                     <path
                       fill="#14b8a6"
                       d="M49.1,-42.6C59.9,-25.7,62.3,-5.5,57,11.2C51.8,27.9,38.9,41,22.2,50.8C5.5,60.6,-15,67.1,-33.9,61.4C-52.9,55.8,-70.4,37.9,-71.9,19.7C-73.4,1.5,-59,-17,-44.4,-34.8C-29.7,-52.6,-14.9,-69.6,2.2,-71.3C19.2,-73,38.4,-59.5,49.1,-42.6Z"
-                      transform="translate(100 100) scale(1,1)"
+                      transform="translate(100 100) scale(1,2)"
                     />
                   </svg>
                 </span>
