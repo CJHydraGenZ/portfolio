@@ -7,6 +7,7 @@ import { Navbar } from "components/header/Navbar";
 import Link from "next/link";
 import { Portfolio } from "components/content/Portfolio";
 import { Client } from "components/content/Client";
+import { Blog } from "components/content/Blog";
 export default function Home() {
   if (typeof document === "undefined") {
     React.useLayoutEffect = React.useEffect;
@@ -175,6 +176,8 @@ export default function Home() {
       <Portfolio />
       {/* Client */}
       <Client />
+      {/* Blog */}
+      <Blog />
     </>
   );
 }

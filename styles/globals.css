@@ -28,3 +28,10 @@ body{
 .hamburger-active > span:nth-child(3){
     @apply -rotate-45
 }
+
+.ima  span{
+    position: relative !important;
+}
+.ima img{
+    @apply  w-full h-full relative !important
+}
