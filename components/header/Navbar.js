@@ -1,5 +1,5 @@
 import React, { useRef, useLayoutEffect } from "react";
-
+import Link from "next/link";
 export const Navbar = () => {
   const navFix = useRef(null);
 
@@ -30,12 +30,11 @@ export const Navbar = () => {
       <div className="container">
         <div className="flex items-center justify-between relative">
           <div className="px-4">
-            <a
-              href="#home"
-              className="font-bold text-lg text-primary block py-6"
-            >
-              Gede Cahya
-            </a>
+            <Link href="#home">
+              <a className="font-bold text-lg text-primary block py-6">
+                Gede Cahya
+              </a>
+            </Link>
           </div>
           <div className="flex items-center px-4">
             <button
@@ -57,52 +56,46 @@ export const Navbar = () => {
             >
               <ul className="block lg:flex ">
                 <li className="group">
-                  <a
-                    href="#home"
-                    className="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
-                  >
-                    Beranda
-                  </a>
+                  <Link href="#home">
+                    <a className="text-base text-dark py-2 mx-8 flex group-hover:text-primary">
+                      Beranda
+                    </a>
+                  </Link>
                 </li>
                 <li className="group">
-                  <a
-                    href="#about"
-                    className="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
-                  >
-                    Tentang Saya
-                  </a>
+                  <Link href="#about">
+                    <a className="text-base text-dark py-2 mx-8 flex group-hover:text-primary">
+                      Tentang Saya
+                    </a>
+                  </Link>
                 </li>
                 <li className="group">
-                  <a
-                    href="#portfolio"
-                    className="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
-                  >
-                    Portfolio
-                  </a>
+                  <Link href="#portfolio">
+                    <a className="text-base text-dark py-2 mx-8 flex group-hover:text-primary">
+                      Portfolio
+                    </a>
+                  </Link>
                 </li>
                 <li className="group">
-                  <a
-                    href="#clients"
-                    className="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
-                  >
-                    Clients
-                  </a>
+                  <Link href="#clients">
+                    <a className="text-base text-dark py-2 mx-8 flex group-hover:text-primary">
+                      Clients
+                    </a>
+                  </Link>
                 </li>
                 <li className="group">
-                  <a
-                    href="#blog"
-                    className="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
-                  >
-                    Blog
-                  </a>
+                  <Link href="#blog">
+                    <a className="text-base text-dark py-2 mx-8 flex group-hover:text-primary">
+                      Blog
+                    </a>
+                  </Link>
                 </li>
                 <li className="group">
-                  <a
-                    href="#contact"
-                    className="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
-                  >
-                    Contact
-                  </a>
+                  <Link href="#contact">
+                    <a className="text-base text-dark py-2 mx-8 flex group-hover:text-primary">
+                      Contact
+                    </a>
+                  </Link>
                 </li>
               </ul>
             </nav>
