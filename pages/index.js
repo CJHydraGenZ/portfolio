@@ -8,6 +8,8 @@ import Link from "next/link";
 import { Portfolio } from "components/content/Portfolio";
 import { Client } from "components/content/Client";
 import { Blog } from "components/content/Blog";
+import { Contact } from "components/content/Contact";
+import { Footer } from "components/footer/Footer";
 export default function Home() {
   if (typeof document === "undefined") {
     React.useLayoutEffect = React.useEffect;
@@ -178,6 +180,10 @@ export default function Home() {
       <Client />
       {/* Blog */}
       <Blog />
+      {/* Contact */}
+      <Contact />
+      {/* ! Footer */}
+      <Footer />
     </>
   );
 }
