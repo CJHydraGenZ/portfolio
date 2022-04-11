@@ -33,6 +33,7 @@ export const Client = () => {
                 <Image
                   src={`/assets/image/clients/google2.svg`}
                   layout="fill"
+                  className="w-full"
                   alt="google"
                 />
               </a>
@@ -43,6 +44,7 @@ export const Client = () => {
                   src={`/assets/image/clients/discord.svg`}
                   alt="discord"
                   layout="fill"
+                  className="w-full"
                 />
               </a>
             </Link>
@@ -52,6 +54,7 @@ export const Client = () => {
                   src={`/assets/image/clients/tokopedia.svg`}
                   alt="tokopedia"
                   layout="fill"
+                  className="w-full"
                 />
               </a>
             </Link>
@@ -61,6 +64,7 @@ export const Client = () => {
                   src={`/assets/image/clients/binance.svg`}
                   alt="binance"
                   layout="fill"
+                  className="w-full"
                 />
               </a>
             </Link>

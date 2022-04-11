@@ -58,7 +58,8 @@ export default function Home() {
                   src={`/assets/image/portfolio/me.png`}
                   alt="me"
                   layout="fill"
-                  objectFit="contain"
+                  // objectFit="contain"
+                  className="w-full"
                 />
 
                 <span className="absolute -bottom-20 -z-10 left-1/2 -translate-x-1/2 md:scale-125">
