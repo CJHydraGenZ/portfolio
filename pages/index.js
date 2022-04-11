@@ -17,6 +17,17 @@ export default function Home() {
   return (
     <>
       {/* Navbar */}
+      <Head>
+        <title>Portfolio</title>
+        <meta
+          name="portfolio"
+          content="This is portfolio me, using next - tailwind CSS"
+        />
+        <link
+          rel="icon"
+          href={`${process.env.NEXT_PUBLIC_FAVICON}/favicon.ico`}
+        />
+      </Head>
       <Navbar />
       <section id="home" className="pt-36">
         <div className="container">
