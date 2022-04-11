@@ -30,16 +30,13 @@ export const Client = () => {
           <div className="flex flex-wrap items-center justify-center">
             <Link href="#">
               <a className="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
-                <Image
-                  src={`${process.env.NEXT_PUBLIC_URL}/assets/image/clients/google2.svg`}
-                  alt="google"
-                />
+                <Image src={`/assets/image/clients/google2.svg`} alt="google" />
               </a>
             </Link>
             <Link href="#">
               <a className="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
                 <Image
-                  src={`${process.env.NEXT_PUBLIC_URL}/assets/image/clients/discord.svg`}
+                  src={`/assets/image/clients/discord.svg`}
                   alt="discord"
                 />
               </a>
@@ -47,7 +44,7 @@ export const Client = () => {
             <Link href="#">
               <a className="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
                 <Image
-                  src={`${process.env.NEXT_PUBLIC_URL}/assets/image/clients/tokopedia.svg`}
+                  src={`/assets/image/clients/tokopedia.svg`}
                   alt="tokopedia"
                 />
               </a>
@@ -55,7 +52,7 @@ export const Client = () => {
             <Link href="#">
               <a className="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
                 <Image
-                  src={`${process.env.NEXT_PUBLIC_URL}/assets/image/clients/binance.svg`}
+                  src={`/assets/image/clients/binance.svg`}
                   alt="binance"
                 />
               </a>

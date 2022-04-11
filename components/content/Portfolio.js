@@ -31,7 +31,7 @@ export const Portfolio = () => {
           <div className="mb-12 p-4 md:w-1/2">
             <div className="rounded-md shadow-md overflow-hidden">
               <Image
-                src={`${process.env.NEXT_PUBLIC_URL}/assets/image/portfolio/1.png`}
+                src={`/assets/image/portfolio/1.png`}
                 alt="Landing page"
                 className="w-full"
               />
@@ -46,7 +46,7 @@ export const Portfolio = () => {
           <div className="mb-12 p-4 md:w-1/2">
             <div className="rounded-md shadow-md overflow-hidden">
               <Image
-                src={`${process.env.NEXT_PUBLIC_URL}/assets/image/portfolio/2.png`}
+                src={`/assets/image/portfolio/2.png`}
                 alt="Landing page"
                 className="w-full"
               />
@@ -61,7 +61,7 @@ export const Portfolio = () => {
           <div className="mb-12 p-4 md:w-1/2">
             <div className="rounded-md shadow-md overflow-hidden">
               <Image
-                src={`${process.env.NEXT_PUBLIC_URL}/assets/image/portfolio/3.png`}
+                src={`/assets/image/portfolio/3.png`}
                 alt="Landing page E-Commerce"
                 className="w-full"
               />
@@ -76,7 +76,7 @@ export const Portfolio = () => {
           <div className="mb-12 p-4 md:w-1/2">
             <div className="rounded-md shadow-md overflow-hidden">
               <Image
-                src={`${process.env.NEXT_PUBLIC_URL}/assets/image/portfolio/4.png`}
+                src={`/assets/image/portfolio/4.png`}
                 alt="Landing page"
                 className="w-full"
               />
