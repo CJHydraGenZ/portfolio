@@ -50,15 +50,17 @@ export default function Home() {
               </Link>
             </div>
             <div className="w-full self-end px-4 lg:w-1/2">
-              <div className="relative mt-10 lg:mt-0 lg:right-0 ima">
+              <div className="relative mt-10 lg:mt-0 lg:right-0">
                 {/* <img src="" alt="" />
                  */}
-                <Image
-                  src={`/assets/image/portfolio/me.png`}
-                  alt="me"
-                  className="max-w-full mx-auto"
-                  layout="fill"
-                />
+                <div className="ima">
+                  <Image
+                    src={`/assets/image/portfolio/me.png`}
+                    alt="me"
+                    className="max-w-full mx-auto"
+                    layout="fill"
+                  />
+                </div>
                 <span className="absolute -bottom-20 -z-10 left-1/2 -translate-x-1/2 md:scale-125">
                   <svg
                     width="400"
