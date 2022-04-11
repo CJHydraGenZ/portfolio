@@ -28,6 +28,9 @@ body{
 .hamburger-active > span:nth-child(3){
     @apply -rotate-45
 }
+.ime img{
+ @apply max-w-full mx-auto !important   
+}
 
 .ima  span{
     position: relative !important;
