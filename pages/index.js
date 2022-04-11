@@ -54,7 +54,7 @@ export default function Home() {
                 {/* <img src="" alt="" />
                  */}
                 <Image
-                  src={`${process.env.NEXT_PUBLIC_URL}/assets/image/portfolio/me.png`}
+                  src={`/assets/image/portfolio/me.png`}
                   alt="me"
                   className="max-w-full mx-auto"
                 />
