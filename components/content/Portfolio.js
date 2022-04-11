@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
 
-import G1 from "components/assets/image/portfolio/1.png";
-import G2 from "components/assets/image/portfolio/2.png";
-import G3 from "components/assets/image/portfolio/3.png";
-import G4 from "components/assets/image/portfolio/4.png";
+// import G1 from "components/assets/image/portfolio/1.png";
+// import G2 from "components/assets/image/portfolio/2.png";
+// import G3 from "components/assets/image/portfolio/3.png";
+// import G4 from "components/assets/image/portfolio/4.png";
 export const Portfolio = () => {
   return (
     <section id="portfolio" className="pt-36 pb-16 bg-slate-100">
@@ -30,7 +30,11 @@ export const Portfolio = () => {
         <div className="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
           <div className="mb-12 p-4 md:w-1/2">
             <div className="rounded-md shadow-md overflow-hidden">
-              <Image src={G1} alt="Landing page" className="w-full" />
+              <Image
+                src={`${process.env.NEXT_PUBLIC_URL}/assets/image/portfolio/1.png`}
+                alt="Landing page"
+                className="w-full"
+              />
             </div>
             <h3 className="font-semibold text-xl text-dark mt-5 mb-3">
               Landing Page
@@ -41,7 +45,11 @@ export const Portfolio = () => {
           </div>
           <div className="mb-12 p-4 md:w-1/2">
             <div className="rounded-md shadow-md overflow-hidden">
-              <Image src={G2} alt="Landing page" className="w-full" />
+              <Image
+                src={`${process.env.NEXT_PUBLIC_URL}/assets/image/portfolio/2.png`}
+                alt="Landing page"
+                className="w-full"
+              />
             </div>
             <h3 className="font-semibold text-xl text-dark mt-5 mb-3">
               Cryptografi
@@ -53,7 +61,7 @@ export const Portfolio = () => {
           <div className="mb-12 p-4 md:w-1/2">
             <div className="rounded-md shadow-md overflow-hidden">
               <Image
-                src={G3}
+                src={`${process.env.NEXT_PUBLIC_URL}/assets/image/portfolio/3.png`}
                 alt="Landing page E-Commerce"
                 className="w-full"
               />
@@ -67,7 +75,11 @@ export const Portfolio = () => {
           </div>
           <div className="mb-12 p-4 md:w-1/2">
             <div className="rounded-md shadow-md overflow-hidden">
-              <Image src={G4} alt="Landing page" className="w-full" />
+              <Image
+                src={`${process.env.NEXT_PUBLIC_URL}/assets/image/portfolio/4.png`}
+                alt="Landing page"
+                className="w-full"
+              />
             </div>
             <h3 className="font-semibold text-xl text-dark mt-5 mb-3">
               Skripsi Program

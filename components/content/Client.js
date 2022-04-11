@@ -1,10 +1,10 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import Google from "components/assets/image/clients/google2.svg";
-import Discord from "components/assets/image/clients/discord.svg";
-import Binance from "components/assets/image/clients/binance.svg";
-import Tokopedia from "components/assets/image/clients/tokopedia.svg";
+// import Google from "components/assets/image/clients/google2.svg";
+// import Discord from "components/assets/image/clients/discord.svg";
+// import Binance from "components/assets/image/clients/binance.svg";
+// import Tokopedia from "components/assets/image/clients/tokopedia.svg";
 
 export const Client = () => {
   return (
@@ -30,22 +30,34 @@ export const Client = () => {
           <div className="flex flex-wrap items-center justify-center">
             <Link href="#">
               <a className="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
-                <Image src={Google} alt="google" />
+                <Image
+                  src={`${process.env.NEXT_PUBLIC_URL}/assets/image/clients/google2.svg`}
+                  alt="google"
+                />
               </a>
             </Link>
             <Link href="#">
               <a className="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
-                <Image src={Discord} alt="discord" />
+                <Image
+                  src={`${process.env.NEXT_PUBLIC_URL}/assets/image/clients/discord.svg`}
+                  alt="discord"
+                />
               </a>
             </Link>
             <Link href="#">
               <a className="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
-                <Image src={Tokopedia} alt="tokopedia" />
+                <Image
+                  src={`${process.env.NEXT_PUBLIC_URL}/assets/image/clients/tokopedia.svg`}
+                  alt="tokopedia"
+                />
               </a>
             </Link>
             <Link href="#">
               <a className="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
-                <Image src={Binance} alt="binance" />
+                <Image
+                  src={`${process.env.NEXT_PUBLIC_URL}/assets/image/clients/binance.svg`}
+                  alt="binance"
+                />
               </a>
             </Link>
           </div>

@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "styles/Home.module.css";
-import Gambar from "components/assets/image/portfolio/me.png";
+// import Gambar from "components/assets/image/portfolio/me.png";
 import { Navbar } from "components/header/Navbar";
 import Link from "next/link";
 import { Portfolio } from "components/content/Portfolio";
@@ -23,10 +23,7 @@ export default function Home() {
           name="portfolio"
           content="This is portfolio me, using next - tailwind CSS"
         />
-        <link
-          rel="icon"
-          href={`${process.env.NEXT_PUBLIC_FAVICON}/favicon.ico`}
-        />
+        <link rel="icon" href={`${process.env.NEXT_PUBLIC_URL}/favicon.ico`} />
       </Head>
       <Navbar />
       <section id="home" className="pt-36">
@@ -56,7 +53,11 @@ export default function Home() {
               <div className="relative mt-10 lg:mt-0 lg:right-0">
                 {/* <img src="" alt="" />
                  */}
-                <Image src={Gambar} alt="me" className="max-w-full mx-auto" />
+                <Image
+                  src={`${process.env.NEXT_PUBLIC_URL}/assets/image/portfolio/me.png`}
+                  alt="me"
+                  className="max-w-full mx-auto"
+                />
                 <span className="absolute -bottom-20 -z-10 left-1/2 -translate-x-1/2 md:scale-125">
                   <svg
                     width="400"
