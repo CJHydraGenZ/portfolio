@@ -29,11 +29,13 @@ export const Portfolio = () => {
 
         <div className="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
           <div className="mb-12 p-4 md:w-1/2">
-            <div className="rounded-md shadow-md overflow-hidden">
+            <div className="rounded-md shadow-md overflow-hidden ima">
               <Image
                 src={`/assets/image/portfolio/1.png`}
                 alt="Landing page"
                 className="w-full"
+                // className="w-full"
+                layout="fill"
               />
             </div>
             <h3 className="font-semibold text-xl text-dark mt-5 mb-3">
@@ -44,11 +46,12 @@ export const Portfolio = () => {
             </p>
           </div>
           <div className="mb-12 p-4 md:w-1/2">
-            <div className="rounded-md shadow-md overflow-hidden">
+            <div className="rounded-md shadow-md overflow-hidden ima">
               <Image
                 src={`/assets/image/portfolio/2.png`}
                 alt="Landing page"
                 className="w-full"
+                layout="fill"
               />
             </div>
             <h3 className="font-semibold text-xl text-dark mt-5 mb-3">
@@ -59,11 +62,12 @@ export const Portfolio = () => {
             </p>
           </div>
           <div className="mb-12 p-4 md:w-1/2">
-            <div className="rounded-md shadow-md overflow-hidden">
+            <div className="rounded-md shadow-md overflow-hidden ima">
               <Image
                 src={`/assets/image/portfolio/3.png`}
                 alt="Landing page E-Commerce"
                 className="w-full"
+                layout="fill"
               />
             </div>
             <h3 className="font-semibold text-xl text-dark mt-5 mb-3">
@@ -74,11 +78,12 @@ export const Portfolio = () => {
             </p>
           </div>
           <div className="mb-12 p-4 md:w-1/2">
-            <div className="rounded-md shadow-md overflow-hidden">
+            <div className="rounded-md shadow-md overflow-hidden ima">
               <Image
                 src={`/assets/image/portfolio/4.png`}
                 alt="Landing page"
                 className="w-full"
+                layout="fill"
               />
             </div>
             <h3 className="font-semibold text-xl text-dark mt-5 mb-3">
