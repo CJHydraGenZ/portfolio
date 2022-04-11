@@ -29,31 +29,38 @@ export const Client = () => {
         <div className="w-full px-4">
           <div className="flex flex-wrap items-center justify-center">
             <Link href="#">
-              <a className="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
-                <Image src={`/assets/image/clients/google2.svg`} alt="google" />
+              <a className="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8 ima">
+                <Image
+                  src={`/assets/image/clients/google2.svg`}
+                  layout="fill"
+                  alt="google"
+                />
               </a>
             </Link>
             <Link href="#">
-              <a className="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+              <a className="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8 ima">
                 <Image
                   src={`/assets/image/clients/discord.svg`}
                   alt="discord"
+                  layout="fill"
                 />
               </a>
             </Link>
             <Link href="#">
-              <a className="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+              <a className="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8 ima">
                 <Image
                   src={`/assets/image/clients/tokopedia.svg`}
                   alt="tokopedia"
+                  layout="fill"
                 />
               </a>
             </Link>
             <Link href="#">
-              <a className="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+              <a className="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8 ima">
                 <Image
                   src={`/assets/image/clients/binance.svg`}
                   alt="binance"
+                  layout="fill"
                 />
               </a>
             </Link>
